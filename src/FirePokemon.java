@@ -1,3 +1,5 @@
+package src;
+
 public class FirePokemon extends Pokemon {
     private int defence;
     private String special;

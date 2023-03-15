@@ -1,27 +1,31 @@
-public class ElectricPokemon extends Pokemon {
-    private String defence;
+package src;
+
+import src.Pokemon;
+
+public class WaterPokemon extends Pokemon {
     private String attack;
+    private int accuracy;
 
-    public ElectricPokemon(String name, int level, int hp, int xp, int height, int weight, String sound, String food, String defence, String attack) {
+    public WaterPokemon(String name, int level, int hp, int xp, int height, int weight, String sound, String food, String attack, int accuracy) {
         super(name, level, hp, xp, height, weight, sound, food);
-        this.defence = defence;
         this.attack = attack;
-    }
-
-    public String getDefence() {
-        return defence;
+        this.accuracy = accuracy;
     }
 
     public String getAttack() {
         return attack;
     }
 
-    public void setDefence(String defence) {
-        this.defence = defence;
+    public int getAccuracy() {
+        return accuracy;
     }
 
     public void setAttack(String attack) {
         this.attack = attack;
+    }
+
+    public void setAccuracy(int accuracy) {
+        this.accuracy = accuracy;
     }
 
     @Override

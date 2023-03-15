@@ -1,3 +1,5 @@
+package src;
+
 public class GrassPokemon extends Pokemon {
     private String Trainer;
     private String special;

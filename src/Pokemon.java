@@ -1,3 +1,5 @@
+package src;
+
 public abstract class Pokemon {
     private String name;
     private int level;

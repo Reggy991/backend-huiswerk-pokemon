@@ -1,3 +1,5 @@
+package src;
+
 public class Main {
     public static void main(String[] args) {
         FirePokemon f1 = new FirePokemon("Charmander", 25, 39, 62, 60, 15, "CHARMANDER", "bessen", 43, "rage");
